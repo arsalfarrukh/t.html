@@ -1,45 +1,53 @@
-file_path =r"C:\Users\14167\Downloads\CH06PR18.txt"
-with open(file_path, 'r') as file:
-    lines = file.readlines()
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Personal Portfolio</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Arsal Farrukh</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-# Step 2: Process each line and store data in a list
-data = []
-for line in lines:
-    line = line.strip()
-    if line:  # Check if line is not empty
-        values = line.split()
-        # Convert values to appropriate data types if needed
-        values = [float(val) for val in values]  # Convert to float if all are numeric
-        data.append(values)
+  <!-- Home Page Content -->
+  <section class="container mt-5">
+    <h3>Hi There! My name is Arsal Farrukh, and I am an Information Technology (BA) student who is attending York University full-time. My Age is 22, and I live in Toronto, Canada.</h3>
+  </section>
 
-# Step 3: Verify data read
-# Print first few rows of data to verify
-print("First few rows of data:")
-for row in data[:5]:  # Print first 5 rows
-    print(row)
+  <!-- Footer -->
+  <footer class="footer mt-5 py-3 bg-dark text-white">
+    <div class="container text-center">
+      <p style="color: red; font-size: 1.2em;">&copy; 2024 Arsal Farrukh. Website is owned by Arsal Farrukh.</p>
+    </div>
+  </footer>
 
-# Example: Calculate mean, median, standard deviation of X2
-X2_values = [row[2] for row in data]  # Extract X2 values
-mean_X2 = sum(X2_values) / len(X2_values)
-median_X2 = sorted(X2_values)[len(X2_values) // 2]
-std_X2 = (sum((x - mean_X2) ** 2 for x in X2_values) / len(X2_values)) ** 0.5
-
-print("\nCalculations for X2:")
-print(f"Mean of X2: {mean_X2}")
-print(f"Median of X2: {median_X2}")
-print(f"Standard deviation of X2: {std_X2}")
-
-# Example: Draw boxplot for Y, X1, X2, X3, X4 (if needed, using matplotlib and seaborn)
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-# Prepare data for boxplot
-data_df = pd.DataFrame(data, columns=['Y', 'X1', 'X2', 'X3', 'X4'])
-
-# Draw boxplot using seaborn
-plt.figure(figsize=(10, 6))
-sns.boxplot(data=data_df[['Y', 'X1', 'X2', 'X3', 'X4']], orient='v', palette='Set3')
-plt.title('Boxplots of Y, X1, X2, X3, X4')
-plt.ylabel('Values')
-plt.grid(True)
-plt.show()
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
