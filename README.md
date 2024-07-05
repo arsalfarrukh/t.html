@@ -22,7 +22,7 @@
           <a class="nav-link" href="https://arsalfarrukh.github.io/t.html/AboutMe.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://arsalfarrukh.github.io/t.html/Projects.html"Projects</a>
+          <a class="nav-link" href="https://arsalfarrukh.github.io/t.html/Projects.html">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://arsalfarrukh.github.io/t.html/Blog.html">Blog</a>
