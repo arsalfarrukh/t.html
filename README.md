@@ -21,7 +21,7 @@
           <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/main/README.md">Home</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://arsalfarrukh.github.io/AboutMe/">About</a>
+          <a class="nav-link" href="https://arsalfarrukh.github.io/repository/AboutMe/">About</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="https://arsalfarrukh.github.io/Projects/">Projects</a>
