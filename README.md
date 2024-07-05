@@ -18,7 +18,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="https://<arsalfarrukh>.github.io/<index.html>">Home</a>
+          <a class="nav-link" href="https://"https://arsalfarrukh.github.io/Index.html/">Home</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/tree/AboutMe?tab=readme-ov-file">AboutMe</a>
