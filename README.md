@@ -27,7 +27,7 @@
           <a class="nav-link" href="projects.html">Projects</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="blog.html">Blog</a>
+          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/Blog/README.md">Blog</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
