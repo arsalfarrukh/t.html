@@ -20,13 +20,13 @@
           <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/main/README.md">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="">About</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/Projects/README.md">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog</a>
+          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/AboutMe/README.md">Blog</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
