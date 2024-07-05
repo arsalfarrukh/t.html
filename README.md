@@ -3,73 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Choose one of the titles based on your preference -->
-  <title>Contact - Personal Portfolio</title>
+  <title>Projects - Arsal Farrukh</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">Arsal Farrukh</a>
+    <a class="navbar-brand" href="#">Arsal Farrukh</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/main/README.md">Home</a>
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/AboutMe/README.md">About</a>
+          <a class="nav-link" href="projects.html">Projects</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="https://arsalfarrukh.github.io/Projects/">Projects</a>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/Blog/README.md">Blog</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/Contact/README.md">Contact</a>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
-
-  <!-- Contact Page Content -->
-  <section class="container mt-5">
-    <p>I very much appreciate you taking the time to review my Website. I hope you have learned something valuable. Lastly, I would like to include my contact information for future reference. Also, feel free to include your own contact info as well. Hope you reach out!</p>
-    <h2>Contact Information</h2>
-    <p>Feel free to <a href="mailto:arsalfarrukh96@gmail.com"><i class="far fa-envelope"></i> email me</a> at arsalfarrukh96@gmail.com</p>
-    <p>Connect with me on LinkedIn: 
-      <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank"><i class="fab fa-linkedin"></i> Your LinkedIn Name</a>
-    </p>
-    
-    <form>
-      <label for="name">Name</label>
-      <input type="text" class="form-control" id="name" placeholder="Enter your name">
-      
-      <label for="email">Email address</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter your email">
-      
-      <label for="subject">Subject</label>
-      <input type="text" class="form-control" id="subject" placeholder="Enter subject">
-      
-      <label for="message">Message</label>
-      <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
-      
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+  <section id="projects" class="container mt-5">
+    <h2>Here is a list of my projects:</h2>
+    <ul>
+      <li>1. Tic-Tac-Toe game: <img src="Tictactoe-winning-vector-639732.webp" alt="Tic-Tac-Toe Game Image"></li>
+    </ul>
+    <p>This is a project for a class assignment that I have created in the past. It is written in the Java programming language. The basic premise was to create a Tic-Tac-Toe game that is easy to use and interactive. The user is one of the players and is essentially like playing against a computer. Here is a link of the Java File with the code for the project/assignment:</p>
+    <p><a href="GamePlayGUI (1).java">GamePlayGUI (1).java</a></p>
+    <p>This link demonstrates the full code used in a GitHub repository for easy viewing. Here is a screenshot of some of what you will be viewing in case the link does not work:</p>
+    <img src="Screenshot 2024-07-04 161401.png" alt="Screenshot of Tic-Tac-Toe Game">
+    <ul>
+      <li>2. Data Structures Project: <img src="0_iVjz5z5UOsm0rL6J.jpg" alt="Data Structures Image"></li>
+    </ul>
+    <p>This project involved creating various Data Structures, such as Linked Lists and Binary Trees, very important concepts for any IT field. The goal was to gain more experience with using the data structures, as well as to help grasp all the important topics mentioned, and to provide a smooth, interactive experience for any potential users so they can easily learn as well. Here is the Java code used for this project:</p>
+    <p><a href="Main (9).java">Main (9).java</a></p>
+    <p>This link shows the full code mentioned above in the GitHub repository, again, for easy reference. Here is a screenshot of a portion of the code in case the link does not work:</p>
+    <img src="Screenshot 2024-07-04 163449.png" alt="Screenshot of Data Structures code">
   </section>
-
-  <!-- Footer -->
   <footer class="footer mt-5 py-3 bg-dark text-white">
     <div class="container text-center">
       <p style="color: red; font-size: 1.2em;">&copy; 2024 Arsal Farrukh. Website is owned by Arsal Farrukh.</p>
     </div>
   </footer>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 </html>
