@@ -30,7 +30,7 @@
           <a class="nav-link" href="blog.html">Blog</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/Contact/README.md">Contact</a>
         </li>
       </ul>
     </div>
