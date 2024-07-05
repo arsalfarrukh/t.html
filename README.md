@@ -17,13 +17,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/main/README.md">Home</a>
+          <a class="nav-link" href="https://arsalfarrukh.github.io/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/AboutMe/README.md">About</a>
+          <a class="nav-link" href="">About</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/Projects/README.md">Projects</a>
+          <a class="nav-link" href="https://arsalfarrukh.github.io/AboutMe/">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/Blog/README.md">Blog</a>
