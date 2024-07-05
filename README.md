@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Choose one of the titles based on your preference -->
   <title>Projects - Personal Portfolio</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
@@ -25,7 +26,7 @@
         <li class="nav-item active">
           <a class="nav-link" href="projects.html">Projects</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="blog.html">Blog</a>
         </li>
         <li class="nav-item">
@@ -35,6 +36,7 @@
     </div>
   </nav>
 
+  <!-- Choose one of the sections based on your preference -->
   <!-- Projects Page Content -->
   <section class="container mt-5">
     <h2>Here is a list of my projects:</h2>
