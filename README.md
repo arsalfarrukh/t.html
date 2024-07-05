@@ -18,19 +18,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="https://arsalfarrukh.github.io/Index.html/">Home</a>
+          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/main/README.md">Home</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/tree/AboutMe/README.md">AboutMe</a>
+          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/AboutMe/README.md">About</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/Projects/README.md">Projects</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/tree/Blog?tab=readme-ov-file">Blog</a>
+          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/Blog/README.md">Blog</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/tree/Contact?tab=readme-ov-file">Contact</a>
+          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/Contact/README.md">Contact</a>
         </li>
       </ul>
     </div>
