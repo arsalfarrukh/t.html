@@ -24,7 +24,7 @@
           <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/tree/AboutMe?tab=readme-ov-file">AboutMe</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="projects.html">https://github.com/arsalfarrukh/Index.html/blob/Projects/README.md</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/tree/Blog?tab=readme-ov-file">Blog</a>
