@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Choose one of the titles based on your preference -->
-  <title>Projects - Personal Portfolio</title>
+  <title>About - Personal Portfolio</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -20,7 +20,7 @@
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item active">
@@ -37,24 +37,19 @@
   </nav>
 
   <!-- Choose one of the sections based on your preference -->
-  <!-- Projects Page Content -->
+  <!-- About Page Content -->
   <section class="container mt-5">
-    <h2>Here is a list of my projects:</h2>
-    <ul>
-      <li>1. Tic-Tac-Toe game: <img src="images/Tictactoe-winning-vector-639732.webp" alt="Tic-Tac-Toe Game Image"></li>
+    <h2>About Me</h2>
+    <p>My furthest completed education is obtaining a high school diploma. I am also, as mentioned, partway through an IT degree at York and hope to finish by end of next year (2025). My skills so far mostly revolve around my current IT education, such as experience with coding languages, data, and computer hardware infrastructure, all of which are important in any IT field. My interests include IT-related topics. Outside this, I enjoy watching sports and playing video games. Feel free to reach out as I enjoy making connections and furthering my career. For reference, I have included my resume which I am sure will help with these goals.</p>
+    <ul> 
+      <li>Experience with coding languages such as Python, Matlab, and others</li> 
+      <li>Handling data, particularly in the realm of data analytics</li>
+      <li>Handling hardware related to computers, such as dealing with computer networks</li>
+      <li>I enjoy playing sports and video games</li>
     </ul>
-    <p>This is a project for a class assignment that I have created in the past. It is written in the Java programming language. The basic premise was to create a Tic-Tac-Toe game that is easy to use and interactive. The user is one of the players and is essentially like playing against a computer. Here is a link of the Java File with the code for the project/assignment:</p>
-    <p><a href="GamePlayGUI (1).java">GamePlayGUI (1).java</a></p>
-    <p>This link demonstrates the full code used in a GitHub repository for easy viewing. Here is a screenshot of some of what you will be viewing in case the link does not work:</p>
-    <img src="images/Screenshot 2024-07-04 161401.png" alt="Screenshot of Tic-Tac-Toe Game">
-
-    <ul>
-      <li>2. Data Structures Project: <img src="images/0_iVjz5z5UOsm0rL6J.jpg" alt="Data Structures Image"></li>
-    </ul>
-    <p>This project involved creating various Data Structures, such as Linked Lists and Binary Trees, very important concepts for any IT field. The goal was to gain more experience with using the data structures, as well as to help grasp all the important topics mentioned, and to provide a smooth, interactive experience for any potential users so they can easily learn as well. Here is the Java code used for this project:</p>
-    <a href="Main (9).java">Main (9).java</a>
-    <p>This link shows the full code mentioned above in the GitHub repository, again, for easy reference. Here is a screenshot of a portion of the code in case the link does not work:</p>
-    <img src="images/Screenshot 2024-07-04 163449.png" alt="Screenshot of Data Structures code">
+    <h3>Here is my Resume:</h3>
+    <iframe src="Resume Arsal Farrukh 2024.pdf" width="100%" height="500px"></iframe>
+    <p><a href="Resume Arsal Farrukh.pdf" class="btn btn-primary" download>Download Resume as PDF</a></p>
   </section>
 
   <!-- Footer -->
