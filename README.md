@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Personal Portfolio</title>
+  <title>About - Personal Portfolio</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -16,10 +16,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
@@ -35,9 +35,19 @@
     </div>
   </nav>
 
-  <!-- Home Page Content -->
+  <!-- About Page Content -->
   <section class="container mt-5">
-    <h3>Hi There! My name is Arsal Farrukh, and I am an Information Technology (BA) student who is attending York University full-time. My Age is 22, and I live in Toronto, Canada.</h3>
+    <h2>About Me</h2>
+    <p>My furthest completed education is obtaining a high school diploma. I am also, as mentioned, partway through an IT degree at York and hope to finish by end of next year (2025). My skills so far mostly revolve around my current IT education, such as experience with coding languages, data, and computer hardware infrastructure, all of which are important in any IT field. My interests include IT-related topics. Outside this, I enjoy watching sports and playing video games. Feel free to reach out as I enjoy making connections and furthering my career. For reference, I have included my resume which I am sure will help with these goals.</p>
+    <ul> 
+      <li>Experience with coding languages such as Python, Matlab, and others</li> 
+      <li>Handling data, particularly in the realm of data analytics</li>
+      <li>Handling hardware related to computers, such as dealing with computer networks</li>
+      <li>I enjoy playing sports and video games</li>
+    </ul>
+    <h3>Here is my Resume:</h3>
+    <iframe src="Resume Arsal Farrukh 2024.pdf" width="100%" height="500px"></iframe>
+    <p><a href="Resume Arsal Farrukh.pdf" class="btn btn-primary" download>Download Resume as PDF</a></p>
   </section>
 
   <!-- Footer -->
