@@ -36,30 +36,7 @@
     </div>
   </nav>
 
-  <!-- Contact Page Content -->
-  <section class="container mt-5">
-    <p>I very much appreciate you taking the time to review my Website. I hope you have learned something valuable. Lastly, I would like to include my contact information for future reference. Also, feel free to include your own contact info as well. Hope you reach out!</p>
-    <h2>Contact Information</h2>
-    <p>Feel free to <a href="mailto:arsalfarrukh96@gmail.com"><i class="far fa-envelope"></i> email me</a> at arsalfarrukh96@gmail.com</p>
-    <p>Connect with me on LinkedIn: 
-      <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank"><i class="fab fa-linkedin"></i> Your LinkedIn Name</a>
-    </p>
-    
-    <form>
-      <label for="name">Name</label>
-      <input type="text" class="form-control" id="name" placeholder="Enter your name">
-      
-      <label for="email">Email address</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter your email">
-      
-      <label for="subject">Subject</label>
-      <input type="text" class="form-control" id="subject" placeholder="Enter subject">
-      
-      <label for="message">Message</label>
-      <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
-      
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+  
   </section>
 
   <!-- Footer -->
