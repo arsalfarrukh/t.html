@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Choose one of the titles based on your preference -->
-  <title>About - Personal Portfolio</title>
+  <title>Contact - Personal Portfolio</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -18,38 +18,48 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/tree/main">Home</a>
+          <a class="nav-link" href="https://arsalfarrukh.github.io/Index.html/">Home</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/tree/AboutMe">About</a>
+          <a class="nav-link" href="https://arsalfarrukh.github.io/AboutMe/">AboutMe</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/Projects/README.md">Projects</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/Blog/README.md">Blog</a>
+          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/tree/Blog?tab=readme-ov-file">Blog</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/blob/Contact/README.md">Contact</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/tree/Contact?tab=readme-ov-file">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <!-- Choose one of the sections based on your preference -->
-  <!-- About Page Content -->
+  <!-- Contact Page Content -->
   <section class="container mt-5">
-    <h2>About Me</h2>
-    <p>My furthest completed education is obtaining a high school diploma. I am also, as mentioned, partway through an IT degree at York and hope to finish by end of next year (2025). My skills so far mostly revolve around my current IT education, such as experience with coding languages, data, and computer hardware infrastructure, all of which are important in any IT field. My interests include IT-related topics. Outside this, I enjoy watching sports and playing video games. Feel free to reach out as I enjoy making connections and furthering my career. For reference, I have included my resume which I am sure will help with these goals.</p>
-    <ul> 
-      <li>Experience with coding languages such as Python, Matlab, and others</li> 
-      <li>Handling data, particularly in the realm of data analytics</li>
-      <li>Handling hardware related to computers, such as dealing with computer networks</li>
-      <li>I enjoy playing sports and video games</li>
-    </ul>
-    <h3>Here is my Resume:</h3>
-    <iframe src="Resume Arsal Farrukh 2024.pdf" width="100%" height="500px"></iframe>
-    <p><a href="Resume Arsal Farrukh.pdf" class="btn btn-primary" download>Download Resume as PDF</a></p>
+    <p>I very much appreciate you taking the time to review my Website. I hope you have learned something valuable. Lastly, I would like to include my contact information for future reference. Also, feel free to include your own contact info as well. Hope you reach out!</p>
+    <h2>Contact Information</h2>
+    <p>Feel free to <a href="mailto:arsalfarrukh96@gmail.com"><i class="far fa-envelope"></i> email me</a> at arsalfarrukh96@gmail.com</p>
+    <p>Connect with me on LinkedIn: 
+      <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank"><i class="fab fa-linkedin"></i> Your LinkedIn Name</a>
+    </p>
+    
+    <form>
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      
+      <label for="email">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      
+      <label for="subject">Subject</label>
+      <input type="text" class="form-control" id="subject" placeholder="Enter subject">
+      
+      <label for="message">Message</label>
+      <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </section>
 
   <!-- Footer -->
@@ -60,6 +70,6 @@
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"></script>
 </body>
 </html>
