@@ -21,7 +21,7 @@
           <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="about.html">AboutMe</a>
+          <a class="nav-link" href="https://github.com/arsalfarrukh/Index.html/tree/AboutMe?tab=readme-ov-file">AboutMe</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="projects.html">Projects</a>
