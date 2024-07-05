@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Personal Portfolio</title>
+  <title>Blog - Personal Portfolio</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -16,7 +16,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
@@ -25,7 +25,7 @@
         <li class="nav-item">
           <a class="nav-link" href="projects.html">Projects</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="blog.html">Blog</a>
         </li>
         <li class="nav-item">
@@ -35,9 +35,11 @@
     </div>
   </nav>
 
-  <!-- Home Page Content -->
+  <!-- Blog Page Content -->
   <section class="container mt-5">
-    <h3>Hi There! My name is Arsal Farrukh, and I am an Information Technology (BA) student who is attending York University full-time. My Age is 22, and I live in Toronto, Canada.</h3>
+    <h2>Blog</h2>
+    <p>Note: My Blog page will contain even more in-depth info relating to myself and my career; it will be an breathtaking experience. Stay Tuned!</p>
+    <img src="images/images.jpg" alt="Blog Image">
   </section>
 
   <!-- Footer -->
