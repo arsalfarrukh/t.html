@@ -17,19 +17,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="Home.html">Home</a>
+          <a class="nav-link" href="https://arsalfarrukh.github.io/t.html/Home.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="AboutMe.html">About</a>
+          <a class="nav-link" href="https://arsalfarrukh.github.io/t.html/Home.html">AboutMe</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Projects.html">Projects</a>
+          <a class="nav-link" href="https://arsalfarrukh.github.io/t.html/Projects.html">Projects</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="Blog.html">Blog</a>
+          <a class="nav-link" href="https://arsalfarrukh.github.io/t.html/Blog.html">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Contact.html">Contact</a>
+          <a class="nav-link" href="https://arsalfarrukh.github.io/t.html/Contact.html">Contact</a>
         </li>
       </ul>
     </div>
